@@ -1,0 +1,127 @@
+OPTIONS=noautodig
+OPTIONS=autopickup
+OPTIONS=noautoquiver
+OPTIONS=checkpoint
+OPTIONS=nocmdassist
+OPTIONS=color
+OPTIONS=confirm
+OPTIONS=noeight_bit_tty
+OPTIONS=noextmenu
+OPTIONS=fixinv
+OPTIONS=help
+OPTIONS=hilite_pet
+OPTIONS=IBMgraphics
+OPTIONS=DECgraphics
+OPTIONS=noignintr
+OPTIONS=lit_corridor
+OPTIONS=lootabc
+OPTIONS=nomail
+OPTIONS=menucolors
+OPTIONS=null
+OPTIONS=prayconfirm
+OPTIONS=pushweapon
+OPTIONS=rest_on_space
+OPTIONS=safe_pet
+OPTIONS=showexp
+OPTIONS=showrace
+OPTIONS=showscore
+OPTIONS=silent
+OPTIONS=sortpack
+OPTIONS=sound
+OPTIONS=nosparkle
+OPTIONS=standout
+OPTIONS=time
+OPTIONS=travel
+OPTIONS=use_inverse
+OPTIONS=verbose
+OPTIONS=catname:Luna
+OPTIONS=dogname:Rasta
+OPTIONS=horsename:Ed
+OPTIONS=msghistory:50
+OPTIONS=disclose:+i ya -v -g yc 
+OPTIONS=fruit:luna kitty
+OPTIONS=menustyle:full
+OPTIONS=menu_headings:inverse
+OPTIONS=msg_window:combination
+OPTIONS=number_pad:1
+OPTIONS=pickup_burden:stressed
+OPTIONS=pickup_types:!$"?=/
+OPTIONS=runmode:teleport
+OPTIONS=sortloot:full
+OPTIONS=suppress_alert:0.6.0
+OPTIONS=hpmon
+
+# known uncursed items
+MENUCOLOR=" uncursed "=cyan
+# items with identified enchantment
+MENUCOLOR=" ([0-9]:.*)"=yellow
+MENUCOLOR=" \+[0-9] "=yellow
+MENUCOLOR=" -[0-9] "=yellow
+# blessed items
+MENUCOLOR=" blessed "=lightblue
+MENUCOLOR=" holy "=lightcyan
+# cursed items
+MENUCOLOR=" cursed "=red
+MENUCOLOR=" unholy "=orange
+# lit lamps
+MENUCOLOR=" (lit)"=white
+# invocation artifacts
+MENUCOLOR=" silver bell"=lightmagenta
+MENUCOLOR=" Bell of Opening"=lightmagenta
+MENUCOLOR=" candelabrum"=lightmagenta
+MENUCOLOR=" papyrus spellbook"=lightmagenta
+MENUCOLOR=" Book of the Dead"=lightmagenta
+# cursed invocation artifacts
+MENUCOLOR=" cursed silver bell"=orange&underline
+MENUCOLOR=" cursed Bell of Opening"=orange&underline
+MENUCOLOR=" cursed candelabrum"=orange&underline
+MENUCOLOR=" cursed papyrus spellbook"=orange&underline
+MENUCOLOR=" cursed Book of the Dead"=orange&underline
+# items in use
+MENUCOLOR=" (weapon in .*)"=brown
+MENUCOLOR=" (wielded.*)"=brown
+MENUCOLOR=" (alternate weapon.*)"=brown
+MENUCOLOR=" (in quiver)"=brown
+MENUCOLOR=" (being worn)"=brown
+MENUCOLOR=" (embedded in your skin)"=brown
+MENUCOLOR=" (on left .*)"=brown
+MENUCOLOR=" (on right .*)"=brown
+MENUCOLOR=" (in use)"=brown
+# worn or used blessed items
+MENUCOLOR=" blessed .* (weapon in .*)"=lightgreen
+MENUCOLOR=" blessed .* (wielded.*)"=lightgreen
+MENUCOLOR=" blessed .* (alternate weapon.*)"=lightgreen
+MENUCOLOR=" blessed .* (in quiver)"=lightgreen
+MENUCOLOR=" blessed .* (being worn)"=lightgreen
+MENUCOLOR=" blessed .* (embedded in your skin)"=lightgreen
+MENUCOLOR=" blessed .* (on left .*)"=lightgreen
+MENUCOLOR=" blessed .* (on right .*)"=lightgreen
+MENUCOLOR=" blessed .* (in use)"=lightgreen
+# worn or used cursed items
+MENUCOLOR=" cursed .* (weapon in .*)"=orange&underline
+MENUCOLOR=" cursed .* (wielded.*)"=orange&underline
+MENUCOLOR=" cursed .* (alternate weapon.*)"=orange&underline
+MENUCOLOR=" cursed .* (in quiver)"=orange&underline
+MENUCOLOR=" cursed .* (being worn)"=orange&underline
+MENUCOLOR=" cursed .* (embedded in your skin)"=orange&underline
+MENUCOLOR=" cursed .* (on left .*)"=orange&underline
+MENUCOLOR=" cursed .* (on right .*)"=orange&underline
+MENUCOLOR=" cursed .* (in use)"=orange&underline
+# potentially dangerous if mixed
+MENUCOLOR=" holding"=lightmagenta&underline
+MENUCOLOR=" wand of cancellation"=lightmagenta&underline
+MENUCOLOR=" wand called cancellation"=lightmagenta&underline
+MENUCOLOR=" called nada"=lightmagenta&underline
+MENUCOLOR=" tricks"=lightmagenta&underline
+# spell failure rates
+MENUCOLOR=" 0%"=lightcyan
+MENUCOLOR=" [1-9]%"=lightgreen
+MENUCOLOR=" 1[0-9]%"=green
+MENUCOLOR=" 2[0-4]%"=green
+MENUCOLOR=" 2[5-9]%"=brown
+MENUCOLOR=" [34][0-9]%"=brown
+MENUCOLOR=" [56][0-9]%"=red
+MENUCOLOR=" 7[0-4]%"=red
+MENUCOLOR=" 7[5-9]%"=orange
+MENUCOLOR=" [89][0-9]%"=orange
+MENUCOLOR=" 100%"=orange&underline
