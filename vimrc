@@ -2,12 +2,14 @@
 set ruler
 set incsearch
 set ignorecase
-set smartcase
 set tabstop=4
-set showmatch
+set wildmode=list
+
+set hlsearch
+nmap <Del> :set nohlsearch<CR>
+
+nmap <Space> <C-d>
 
 " colors
 set background=dark
 syntax on
-
-"com A %s/"\/css/"..\/..\/css/g
